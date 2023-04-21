@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css");
+
+body{
+    background-color:darkkhaki;
+    background-image:url("https://thumbs.dreamstime.com/b/beautiful-rain-forest-ang-ka-nature-trail-doi-inthanon-national-park-thailand-36703721.jpg");
+    width: 100%;
+    height: 100%;
+    font-family: 'Vast Shadow';
+    color: rgb(255, 255, 255);
+}
+
+#quote-box{
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    height: 40%;
+    margin: 25vh auto auto auto;
+    border: 1px solid rgb(204, 30, 30);
+    padding: 10px 10px 10px 10px;
+    background-color:darkgray;
+}
+
+#text{
+    display: block;
+    padding: auto;
+    margin: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: 30px;
+    text-align: center;
+}
+
+#author{
+    color: rgb(208, 39, 174);
+    text-align: center;
+    font-size: 20px;
+    margin: 2vh auto auto auto;
+}
+
+
+#new-quote{
+    display: flex;
+    flex-flow: row;
+    margin: 5vh auto 5vh auto;
+    padding: 10px 15px 10px 15px;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+#tweet-quote{
+    margin: 5px 5px 25px 15px;
+    padding: 5px 5px 5px 5px;
+    width: 5vw;
+    height: 6vh;
+    font-size: 25px;
+}
